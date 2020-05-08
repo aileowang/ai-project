@@ -1,6 +1,6 @@
 推荐系统仅限学习之用，请勿用于商业用途。
 
-年度最佳Paper-大厂推荐系统参考：https://zhuanlan.zhihu.com/p/138777815
+年度最佳Paper-大厂推荐系统：https://zhuanlan.zhihu.com/p/138777815
 
 # 推荐系统
 
