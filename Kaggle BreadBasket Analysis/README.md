@@ -1,24 +1,11 @@
 # Kaggle BreadBasket
-This report used a database kernel from Kaggle, and the original file can be found [here](https://www.kaggle.com/laalarcon/breadbasket-selling-patterns).
+Data [here](https://www.kaggle.com/laalarcon/breadbasket-selling-patterns).
+字段：Date（日期），Time（时间），Transaction（交易ID）Item（商品名称）
+
+min_support=0.02，min_confidence=0.5时, 一共有33个频繁项集，8种关联规则
+
+使用efficient_apriori工具包, 效率较高，但返回参数较少
+
+使用mlxtend.frequent_patterns工具包, 效率较低，但返回参数较多
 
 
-# Introduction
-
-The dataset belongs to "The Bread Basket" a bakery located in Edinburgh. The dataset has 21293 entires, over 6000 transactions and 4 columns:
-
-  - <b>Date:</b> Categorical variable that tells us the date of the transactions (YYYY-MM-DD format).
-  - <b>Time:</b> Categorical variable that tells us the time of the transactions (HH:MM:SS format).
-Transaction: Quantitative variable that allows us to differentiate the transactions. The rows that share the same value in this field belong to the same transaction, that's why the data set has less transactions than observations.
-  - <b>Item:</b> Categorical variable with the products.
-
-# Packages
-
-These are the following packages used in this project;
-
-  - Pandas
-  - Numpy
-  - Matplotlib.pyplot
-
-# Lisence
-
-MIT
