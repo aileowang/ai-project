@@ -1,5 +1,5 @@
 # ai-project
-CreatingCustomerSegments:创建客户细分，用户分层
+CreatingCustomerSegments：创建客户细分，用户分层
 
 Kaggle BreadBasket Analysis：面包房购物篮关联规则挖掘Apriori
 
