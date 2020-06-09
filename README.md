@@ -1,4 +1,6 @@
 # ai-project
+AutoML/TPOT：自动化机器学习，让人工智能创造人工智能会是未来的趋势么？TPOT
+
 CreatingCustomerSegments：创建客户细分，用户分层
 
 Kaggle BreadBasket Analysis：面包房购物篮关联规则挖掘Apriori
